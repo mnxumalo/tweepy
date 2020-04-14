@@ -1,0 +1,10 @@
+{application,tweepy,
+             [{applications,[kernel,stdlib,elixir,logger,mock,credo,extwitter,
+                             quantum]},
+              {description,"tweepy"},
+              {modules,['Elixir.Tweepy','Elixir.Tweepy.Application',
+                        'Elixir.Tweepy.FileReader','Elixir.Tweepy.Scheduler',
+                        'Elixir.Tweepy.Tweet','Elixir.Tweepy.TweetServer']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Tweepy.Application',[]}}]}.
